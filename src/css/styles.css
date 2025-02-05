@@ -1,0 +1,1438 @@
+html body {
+  margin: 0;
+}
+.headerList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.headerList li {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.headerList li:hover {
+  background-color: #ebb8b8;
+  border-radius: 20px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fd0000a2;
+  color: black;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+.burger {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.headerlogo {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.headerList li {
+  font-size: 20px;
+}
+#logoRoca {
+  font-size: 35px;
+  color: #333;
+}
+
+#logoRocaDot {
+  color: #e93656;
+}
+
+.headerlogoResume {
+  margin-left: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.mobile-menu {
+  display: none;
+  background-color: white;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 10;
+  padding: 10px 20px;
+  width: 250px;
+}
+
+.mobile-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mobile-menu ul li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.contact-button {
+  margin-top: 20px;
+  background-color: #e93656;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  background-color: #d02d47;
+}
+
+@media screen and (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+  .headerList {
+    display: none;
+  }
+
+  .headerlogo,
+  .headerlogoResume {
+    display: none;
+  }
+
+  .mobile-menu.active {
+    display: block;
+  }
+}
+
+.headerslider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.headerslider img {
+  width: 100%;
+  height: 750px;
+  display: none;
+  position: relative;
+}
+
+.headerslider img:first-child {
+  display: block;
+}
+
+.headerlogoRoca span {
+  letter-spacing: 1.2px;
+  position: absolute;
+  margin-top: -710px;
+  font-size: 40px;
+  margin-left: 52px;
+}
+
+#logoRoca {
+  color: #1a1a1a;
+  font-family: "Poppins-ExtraBold.ttf";
+}
+
+#logoRocaDot {
+  color: #0081ff;
+  margin-left: 140px;
+}
+
+.headerlogoResume {
+  position: absolute;
+  color: #b3b3b3;
+  font-size: 13px;
+  margin-top: -665px;
+  margin-left: 52px;
+  font-family: "Montserrat-Regular.ttf";
+}
+
+#logo01 {
+  font-size: 158.3px;
+  color: #1c1c1c;
+  position: absolute;
+  margin-top: -750px;
+  margin-left: 83%;
+  font-family: "Poppins-ExtraBold.ttf";
+}
+
+#logoAboutMe {
+  position: absolute;
+  color: #373737;
+  font-size: 43.7px;
+  margin-left: 82%;
+  margin-top: -680px;
+  font-family: "Poppins-ExtraBold.ttf";
+}
+
+.headerAboutMe {
+  position: absolute;
+  margin-left: 50%;
+  margin-top: -500px;
+}
+
+#headerFirstLine {
+  font-size: 40px;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+#headerSecondLine {
+  font-size: 62px;
+  margin-top: -42px;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+#headerThirthLine {
+  font-size: 23.29px;
+  margin-top: -55px;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+.headerSocialMedias {
+  position: absolute;
+}
+
+.headerSocialMedias img {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.headerClientRating {
+  position: absolute;
+  margin-left: 80%;
+  margin-top: -100px;
+  font-size: 24px;
+  font-family: "Montserrat-Bold.ttf";
+}
+
+#headerProccentLine {
+  padding-bottom: 3px;
+  background-color: #e93656;
+  margin-top: 10px;
+}
+
+#aboutMeSection {
+  margin-top: 130px;
+}
+
+.sectionAboutMe {
+  display: inline-block;
+  width: auto;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+.sectionAboutMe p {
+  max-width: 330px;
+  text-align: end;
+  display: flex;
+  font-family: "Muli-Regular.ttf";
+}
+
+.sectionAboutMe h3 {
+  text-align: end;
+  font-size: 14px;
+  color: #daae19;
+}
+
+.sectionAboutMe h2 {
+  text-align: end;
+  font-size: 40px;
+}
+
+.sectionAboutMe a {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 240px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #e93656;
+  font-size: 15px;
+}
+
+.sectionPhoto1 {
+  display: inline-block;
+}
+
+.sectionStats {
+  display: inline-block;
+  width: 250px;
+  margin-left: 3%;
+  margin-top: 20px;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+.sectionStats div {
+  margin-top: 30px;
+}
+
+#aboutMeSection {
+  display: flex;
+  justify-content: center;
+}
+
+#designProccent {
+  width: 80%;
+  background-color: #e93656;
+  height: 5px;
+  display: inline-block;
+}
+
+#designProccentempty {
+  width: 18%;
+  background-color: #f0f0f0;
+  height: 5px;
+  display: inline-block;
+  margin-left: -2%;
+}
+
+#photographyProccent {
+  width: 65%;
+  background-color: #e93656;
+  height: 5px;
+  display: inline-block;
+}
+
+#photographyProccentempty {
+  width: 33%;
+  background-color: #f0f0f0;
+  height: 5px;
+  display: inline-block;
+  margin-left: -2%;
+}
+
+#markingProccent {
+  width: 50%;
+  background-color: #e93656;
+  height: 5px;
+  display: inline-block;
+}
+
+#markingProccentempty {
+  width: 48%;
+  background-color: #f0f0f0;
+  height: 5px;
+  display: inline-block;
+  margin-left: -2%;
+}
+
+#photoshopProccent {
+  width: 30%;
+  background-color: #e93656;
+  height: 5px;
+  display: inline-block;
+}
+
+#photoshopProccentempty {
+  width: 68%;
+  background-color: #f0f0f0;
+  height: 5px;
+  display: inline-block;
+  margin-left: -2%;
+}
+
+.clickButtons {
+  margin-top: 10px;
+  display: flex;
+}
+
+.clickButtons span:hover {
+  background-color: #15263e;
+}
+
+.clickButtons span {
+  margin-top: 30px;
+  background-color: #f9f9f9;
+  margin-left: 5px;
+  padding: 10px 1px;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+
+.clickButtons a {
+  text-decoration: none;
+  color: #6b6b6b;
+  padding: 10px;
+}
+
+.proccentPink {
+  color: #e93656;
+}
+
+.sectionPhoto1 img {
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.contactContainer {
+  background-color: #131a36;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  max-width: 100%;
+}
+
+.phoneIcon {
+  background: #15263e;
+  outline: #f0f0f0;
+  outline-style: dashed;
+  padding: 17px;
+  border-radius: 30px;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+
+.phoneIcon:hover {
+  background-color: #e93656;
+  outline: none;
+}
+
+#phoneNumberText {
+  color: #f0f0f0;
+  font-size: 25px;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+.phoneContainer {
+  display: flex;
+}
+
+#phoneNumber {
+  font-size: 14px;
+  color: #dfdfdf;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+#phoneNumberInfo {
+  margin-left: 30px;
+}
+
+#cardsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 203px;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.card {
+  width: 240px;
+  height: 300px;
+  background-color: #fafafa;
+  opacity: 0.97;
+  border: none;
+  text-align: center;
+  margin: 6px;
+  position: relative;
+  overflow: hidden;
+  transition-property: all;
+  transition-duration: 0.8s;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s;
+}
+
+.card:hover .card-content {
+  opacity: 0;
+}
+
+.card-content.hidden {
+  opacity: 0;
+}
+
+.card:hover {
+  background-color: #15263e;
+}
+
+.card-content h2 {
+  font-size: 17px;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+.recomendationsSection {
+  margin-top: 140px;
+  display: flex;
+  align-items: center;
+}
+
+#recomendationsBackground {
+  position: relative;
+  width: 100%;
+}
+
+#recomendation1 p {
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0.45px;
+}
+
+#occupation {
+  color: #e93656;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.recomendationsContainer {
+  position: absolute;
+}
+
+#recomendationText {
+  width: 30%;
+  color: white;
+  font-size: 100%;
+  font-family: "Roboto-Light.ttf";
+}
+
+#recomendationContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#photo {
+  background: none;
+  outline-style: dashed;
+  outline-width: 0.1cm;
+  outline-color: white;
+  padding: 12px;
+  border-radius: 200px;
+}
+
+#buttons {
+  background-color: #15263e;
+  padding: 30px;
+}
+
+.button {
+  padding: 10px;
+  color: white;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+button:hover {
+  margin-left: 2%;
+}
+
+.buttonsPhoto {
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+  margin-left: 89px;
+}
+
+.buttonsPhoto img {
+  max-width: 200px;
+  margin: auto;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.buttonsPhotosContainer {
+  width: 48%;
+}
+
+.buttonsPhotosContainer div {
+  width: 33.33%;
+  padding: 5px;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  margin-top: 58px;
+  height: 320px;
+}
+
+#latestProjects {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  margin-top: 210px;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+#buttonsPhotosRow1 {
+  display: flex;
+  gap: 15%;
+}
+
+#buttonsPhotosRow2 {
+  display: flex;
+  margin-top: -24px;
+  gap: 15%;
+}
+
+.newsEvent {
+  display: flex;
+  justify-content: center;
+  font-size: 11px;
+  margin-top: 270px;
+  color: #2ed279;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+#latestEvents {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  margin-top: -10px;
+}
+
+#graphicDesignerContainer {
+  display: flex;
+  justify-content: end;
+}
+
+.graphicDesignCard {
+  background-color: #fafafa;
+  width: 40%;
+}
+
+.graphicDesignCard * {
+  margin-left: 28px;
+}
+
+.graphicDesignCard img {
+  margin-top: 30px;
+}
+
+.graphicDesignCard h4 {
+  letter-spacing: 1.12px;
+  color: #888888;
+  font-size: 12px;
+  margin-top: 20px;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+.graphicDesignCard h3 {
+  color: #161616;
+  font-size: 35px;
+  margin-top: 20px;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+.graphicDesignCard p {
+  width: 72.5%;
+  font-size: 16px;
+  margin-top: 20px;
+  color: #444444;
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+.graphicDesignCard * {
+  margin-left: 28px;
+}
+
+.graphicDesignRotatedDiv {
+  background-color: #15263e;
+  width: 8.9%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.graphicDesignRotatedDiv h3 {
+  color: #e93656;
+  font-size: 22px;
+  transform: rotate(270deg);
+  font-family: "GlacialIndifference-Bold.ttf";
+}
+
+.latestArticlesPhoto {
+  max-width: 100%;
+  height: 100%;
+}
+
+#applicationDesignContainer {
+  display: flex;
+  justify-content: start;
+}
+
+.articlesReadMore {
+  text-decoration: none;
+  color: #444444;
+}
+#productCards {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 220px;
+  height: auto;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.product-content {
+  padding: 15px;
+  text-align: center;
+}
+
+.product h3 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  margin: 10px 0;
+  color: #333;
+}
+
+.product p {
+  font-size: 14px;
+  color: #777;
+  margin: 5px 0;
+}
+
+.product span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e91e63;
+}
+
+.product .description {
+  font-size: 12px;
+  color: #555;
+  display: none;
+}
+
+.product.active .description {
+  display: block;
+}
+.product img {
+  object-fit: contain;
+}
+.contactSection img {
+  margin-top: 190px;
+  width: 100%;
+  filter: invert(800%);
+  opacity: 0.9;
+  position: relative;
+}
+
+.contactText {
+  display: flex;
+  justify-content: center;
+}
+
+.contactSection h2 {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  color: white;
+  margin-top: -28%;
+  left: 50%;
+  transform: translateX(-53%);
+  letter-spacing: 1.35px;
+  font-size: 42px;
+  font-family: "Jaapokki-Regular.ttf";
+}
+
+.contactSection p {
+  position: absolute;
+  text-align: center;
+  letter-spacing: 0.51px;
+  color: #eeeeee;
+  margin-top: -24%;
+  left: 50%;
+  transform: translateX(-53%);
+  font-size: 15px;
+  font-family: "Roboto-Light.ttf";
+}
+
+.signContainer {
+  position: absolute;
+  margin-top: -20%;
+  left: 50%;
+  transform: translateX(-60%);
+}
+
+#inputs {
+  display: flex;
+}
+
+#inputs input {
+  margin-left: 1%;
+  padding-left: 20px;
+  padding-right: 5%;
+}
+
+#contactSign textarea {
+  margin-left: 1%;
+  width: 115.4%;
+  padding-left: 1%;
+  margin-top: 1%;
+}
+
+#submitButton {
+  padding: 15px 20px;
+  color: #e93656;
+  border-color: #e93656;
+  background: none;
+  cursor: pointer;
+  display: block;
+  font-size: 12px;
+  margin-left: 44%;
+  margin-top: 2%;
+  font-family: "Poppins-SemiBold.ttf";
+}
+
+footer {
+  margin-top: -41px;
+}
+
+#rocaContainer {
+  background-color: #282828;
+  padding-bottom: 100px;
+}
+
+#rocaContainer * {
+  display: flex;
+  justify-content: center;
+}
+
+#rocaContainer p {
+  max-width: 26%;
+  text-align: center;
+  margin: auto;
+  color: #a5a5a5;
+  font-size: 17px;
+  font-family: "Roboto-Regular.ttf";
+}
+
+#rocaContainer h1 {
+  color: white;
+  font-size: 55px;
+  padding-top: 100px;
+  font-family: "Poppins-ExtraBold.ttf";
+}
+
+#rocaContainer span {
+  color: #e93656;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(23, 23, 23);
+}
+
+.footerBottom p {
+  font-size: 15px;
+  color: rgb(160, 168, 183);
+}
+
+.footerBottom span {
+  color: #ffffff;
+}
+
+#footerLinks a {
+  padding: 20px;
+  margin-top: 45px;
+}
+
+@media (width <= 1279px) {
+  .graphicDesignRotatedDiv h3 {
+    font-size: 16px;
+  }
+
+  .sectionAboutMe a {
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 0;
+  }
+
+  .headerClientRating {
+    font-size: 20px;
+  }
+
+  .card-content h2 {
+    font-size: 15.1px;
+  }
+
+  #buttonsPhotosRow1 {
+    display: flex;
+    gap: 15%;
+  }
+
+  #buttonsPhotosRow2 {
+    display: flex;
+    margin-top: -24px;
+    gap: 15%;
+  }
+
+  #buttonsPhotosRow1 {
+    display: flex;
+    gap: 10%;
+  }
+
+  #buttonsPhotosRow2 {
+    display: flex;
+    margin-top: -24px;
+    gap: 10%;
+  }
+  #buttonsPhotosRow1 img {
+    max-width: 170px;
+  }
+
+  #buttonsPhotosRow2 img {
+    max-width: 170px;
+  }
+}
+
+@media (width <= 1024px) {
+  .headerlogoRoca span {
+    letter-spacing: 1.2px;
+    position: absolute;
+    margin-top: -425px;
+    font-size: 40px;
+    margin-left: 52px;
+  }
+
+  #logo01 {
+    font-size: 100px;
+    margin-left: 80%;
+    margin-top: -450px;
+  }
+
+  #logoAboutMe {
+    font-size: 28px;
+    margin-left: 79%;
+    margin-top: -410px;
+  }
+
+  .headerslider img {
+    width: 100%;
+    height: 450px;
+  }
+
+  #headerFirstLine {
+    font-size: 28px;
+  }
+
+  #headerSecondLine {
+    font-size: 40px;
+    margin-top: -35px;
+  }
+
+  #headerThirthLine {
+    font-size: 17px;
+    margin-top: -40px;
+  }
+
+  .headerClientRating {
+    font-size: 16px;
+  }
+
+  .headerAboutMe {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -350px;
+  }
+
+  .sectionAboutMe h2 {
+    font-size: 25px;
+  }
+
+  .sectionAboutMe p {
+    max-width: 310px;
+    font-size: 20px;
+  }
+
+  .sectionAboutMe a {
+    margin: auto;
+    width: 40%;
+  }
+
+  .sectionPhoto1 img {
+    width: 90%;
+    margin-left: -11%;
+  }
+
+  .sectionPhoto1 {
+    width: 350px;
+  }
+
+  .card {
+    width: 150px;
+    height: 200px;
+  }
+
+  #projects {
+    justify-content: start;
+    margin-top: 58px;
+  }
+
+  .contactSection h2 {
+    margin-top: -32%;
+    left: 50%;
+    font-size: 30px;
+  }
+
+  .contactSection p {
+    margin-top: -27%;
+    font-size: 13px;
+  }
+
+  .signContainer {
+    margin-top: -23%;
+    left: 50%;
+  }
+
+  #submitButton {
+    padding: 12px 20px;
+    font-size: 10px;
+    margin-top: -2%;
+  }
+}
+
+@media (width <= 767px) {
+  .headerslider img {
+    width: 100%;
+    height: 280px;
+  }
+
+  .headerlogoRoca span {
+    letter-spacing: 1.2px;
+    position: absolute;
+    margin-top: -260px;
+    font-size: 25px;
+    margin-left: 15px;
+  }
+
+  #logoRocaDot {
+    margin-left: 70px;
+  }
+
+  .headerlogoResume {
+    font-size: 10px;
+    margin-top: -232px;
+    margin-left: 15px;
+  }
+
+  #logo01 {
+    font-size: 70px;
+    margin-top: -280px;
+    margin-left: 75%;
+  }
+
+  #logoAboutMe {
+    font-size: 20px;
+    margin-left: 72%;
+    margin-top: -250px;
+  }
+
+  .headerAboutMe {
+    margin-left: 50%;
+    margin-top: -220px;
+  }
+
+  #headerFirstLine {
+    font-size: 20px;
+  }
+
+  #headerSecondLine {
+    font-size: 25px;
+    margin-top: -14px;
+  }
+
+  #headerThirthLine {
+    font-size: 14px;
+    margin-top: -25px;
+  }
+
+  .headerSocialMedias img {
+    margin-left: 10px;
+    width: 18%;
+  }
+
+  .headerClientRating {
+    margin-left: 64%;
+    margin-top: -40px;
+    font-size: 14px;
+  }
+
+  .sectionAboutMe h2 {
+    font-size: 15px;
+    text-align: start;
+  }
+
+  .sectionAboutMe h3 {
+    font-size: 12px;
+    text-align: start;
+    margin-top: -10px;
+  }
+
+  .sectionAboutMe p {
+    max-width: 330px;
+    font-size: 14px;
+    text-align: start;
+    margin-top: -5px;
+  }
+
+  .sectionPhoto1 img {
+    padding-left: 15px;
+    padding-right: 10px;
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .sectionStats {
+    width: 100px;
+    margin-left: 2%;
+    margin-top: 5px;
+    font-size: 13.5px;
+  }
+
+  .proccentPink {
+    font-size: 11px;
+  }
+
+  .sectionAboutMe a {
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .sectionStats div {
+    margin-top: 25px;
+  }
+
+  .clickButtons {
+    margin-top: 10px;
+    margin-left: -60%;
+  }
+
+  .clickButtons span {
+    margin-top: 30px;
+    margin-left: 5px;
+  }
+
+  .contactContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    margin-top: 100px;
+    max-width: 100%;
+  }
+
+  .phoneIcon {
+    padding: 14px;
+    border-radius: 30px;
+    width: 50%;
+  }
+
+  #phoneNumberText {
+    font-size: 15px;
+  }
+
+  .phoneContainer {
+    margin-top: 20px;
+    margin-left: 5%;
+  }
+
+  #allCardContainer {
+    display: flex;
+  }
+
+  .row {
+    display: block;
+  }
+
+  #recomendationText {
+    width: 30%;
+    font-size: 10px;
+  }
+
+  #photo {
+    padding: 12px;
+    border-radius: 200px;
+    width: 15%;
+  }
+
+  #occupation {
+    font-size: 8px;
+  }
+
+  #name {
+    font-size: 12px;
+  }
+
+  #latestProjects {
+    font-size: 35px;
+    margin-top: 90px;
+  }
+
+  #buttons {
+    font-size: 15px;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .button {
+    padding: 5px;
+    font-size: 10px;
+    display: flex;
+  }
+
+  #projects {
+    display: block;
+  }
+
+  .buttonsPhoto {
+    margin: 0;
+  }
+
+  #buttonsPhotosRow1 {
+    gap: 165%;
+  }
+
+  #buttonsPhotosRow2 {
+    gap: 165%;
+  }
+
+  #buttonsPhotosRow1 img {
+    max-width: 120px;
+  }
+
+  #buttonsPhotosRow2 img {
+    max-width: 120px;
+  }
+
+  .buttonsPhotosContainer div {
+    width: 33.33%;
+    padding: 0;
+  }
+
+  .buttonsPhotosContainer {
+    margin-left: 1.5%;
+  }
+
+  .newsEvent {
+    font-size: 11px;
+    margin-top: 130px;
+  }
+
+  #latestEvents {
+    font-size: 35px;
+    margin-top: -10px;
+  }
+
+  #graphicDesignerContainer {
+    display: block;
+  }
+
+  .graphicDesignCard {
+    width: 100%;
+  }
+
+  .graphicDesignCard h4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .graphicDesignCard h3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .graphicDesignCard p {
+    text-align: center;
+    margin-left: 15%;
+  }
+
+  .graphicDesignRotatedDiv {
+    background-color: #15263e;
+    width: 100%;
+  }
+
+  .graphicDesignRotatedDiv h3 {
+    color: #e93656;
+    font-size: 22px;
+    transform: none;
+  }
+
+  #applicationDesignContainer {
+    display: block;
+  }
+
+  .graphicDesignCard {
+    width: 100%;
+  }
+
+  .graphicDesignCard h4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .graphicDesignCard h3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .graphicDesignCard p {
+    text-align: center;
+    margin-left: 15%;
+  }
+
+  .graphicDesignRotatedDiv {
+    background-color: #15263e;
+    width: 100%;
+  }
+
+  .graphicDesignRotatedDiv h3 {
+    color: #e93656;
+    font-size: 22px;
+    transform: none;
+  }
+
+  .square h3 {
+    font-size: 11px;
+  }
+
+  .contactSection h2 {
+    margin-top: -33%;
+    font-size: 15px;
+  }
+
+  .contactSection p {
+    margin-top: -28%;
+    font-size: 12px;
+    letter-spacing: 0;
+    width: 100%;
+  }
+
+  #inputs {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  #inputs input {
+    padding: 5px 0;
+    font-size: 10px;
+    width: 100%;
+    height: 20%;
+  }
+
+  #contactSign textarea {
+    width: 115.4%;
+    height: 70%;
+    margin-top: -6%;
+  }
+
+  #submitButton {
+    padding: 7px 15px;
+    font-size: 10px;
+    margin-left: 27%;
+    margin-top: -9%;
+  }
+
+  #rocaContainer p {
+    max-width: 70%;
+    font-size: 15px;
+  }
+
+  .footerBottom p {
+    font-size: 12px;
+  }
+}
+
+.scroll-to-top {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 20px;
+  background-color: #fd0000a2;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-to-top:hover {
+  background-color: #29033f;
+}
+.cookie-notification {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+  display: none;
+}
+
+.cookie-notification button {
+  background-color: #f40707;
+  color: #002653;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.cookie-notification button:hover {
+  background-color: #c83a0f;
+}

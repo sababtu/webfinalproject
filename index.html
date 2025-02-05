@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+
+    <title>saba baindurashvili</title>
+  </head>
+  <body>
+    <header>
+      <div>
+      <div class="burger" onclick="toggleMenu()">☰</div>
+      <div class="headerlogo">
+        <span id="logoRoca">Roca</span> <span id="logoRocaDot"></span>
+      </div>
+    </div>
+    <div>
+      <ul class="headerList">
+        <li>Latest Projects</li>
+        <li>Latest Articles</li>
+        <li>Rosa Team</li>
+        <li>CONTACT US</li>
+      </ul>
+    </div>
+      <div class="headerlogoResume">Resume Template</div>
+
+      <div class="mobile-menu">
+        <ul>
+          <li>Latest Projects</li>
+          <li>Latest Articles</li>
+          <li>Rosa Team</li>
+          <li>CONTACT US</li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="header-info">
+      <div class="headerslider">
+        <img src="src/images/headerphoto1.jpg" alt="steve jobs" />
+        <img src="src/images/headerphoto2.jpg" alt="elon musk" />
+        <img src="src/images/headerphoto3.jpg" alt="bill gates" />
+      </div>
+
+      <div class="headerAboutMe">
+        <p id="headerFirstLine">Hi, I am</p>
+        <p id="headerSecondLine">Saba Baindurashvili</p>
+        <span class="headerSocialMedias">
+          <a
+            href="https://www.facebook.com/saba.baindurashvili.9"
+            target="_blank"
+          >
+            <img src="src/images/facebook.png" alt="Facebook" />
+          </a>
+          <a
+            href="https://twitter.com/saba_baindurashvili?t=7t7PTkNSz9m6r_PITAM1TQ&s=07"
+            target="_blank"
+          >
+            <img src="src/images/twitter.png" alt="Twitter" />
+          </a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <img src="src/images/youtube.png" alt="YouTube" />
+          </a>
+        </span>
+      </div>
+
+      <!-- Client Rating Section -->
+      <div class="headerClientRating">
+        <span style="color: #e93656">100%</span> <span>Satisfied Clients</span>
+        <div id="headerProccentLine"></div>
+      </div>
+    </section>
+
+    <section id="aboutMeSection">
+      <div class="sectionAboutMe">
+        <h2>saba baindurashvili</h2>
+        <h3>web designer</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipi elit. Sunt sed ad
+          possimus magm maiores.Ipa Lorem ipsum dolor sit amet, consectetur
+          adiic Sunt sed ad posimus magnam maores. Ipsam as velt blanditiis
+          debitis consequuntur mollita umenda nam obcaecati illo!
+        </p>
+        <a
+          href="https://twitter.com/saba_baindurashvili?t=7t7PTkNSz9m6r_PITAM1TQ&s=07"
+          target="_blank"
+          >Hire Me</a
+        >
+      </div>
+
+      <div class="sectionPhoto1">
+        <img src="src/images/sectionphoto1.jpg" alt="elon musk" />
+      </div>
+
+      <nav class="sectionStats">
+        <div><span>Design</span> <span class="proccentPink">(80%)</span></div>
+        <span id="designProccent"></span> <span id="designProccentempty"></span>
+
+        <div>
+          <span>Photography</span> <span class="proccentPink">(65%)</span>
+        </div>
+        <span id="photographyProccent"></span>
+        <span id="photographyProccentempty"></span>
+
+        <div><span>Marking</span> <span class="proccentPink">(50%)</span></div>
+        <span id="markingProccent"></span>
+        <span id="markingProccentempty"></span>
+
+        <div>
+          <span>Photoshop</span> <span class="proccentPink">(30%)</span>
+        </div>
+        <span id="photoshopProccent"></span>
+        <span id="photoshopProccentempty"></span>
+
+        <div class="clickButtons">
+          <span> <a href="#">  </a> </span>
+          <span> <a href="#">  </a> </span>
+          <span> <a href="#">  </a> </span>
+          <span> <a href="#">  </a> </span>
+        </div>
+      </nav>
+    </section>
+
+    <section class="contactContainer">
+      <nav>
+        <div class="phoneContainer">
+          <a href="tel:+995 574 73 42 60">
+            <img
+              src="src/images/phoneicon.svg"
+              alt="phoneicon"
+              class="phoneIcon"
+            />
+          </a>
+          <div id="phoneNumberInfo">
+            <div id="phoneNumberText">Phone Number</div>
+            <div id="phoneNumber">+995 555 55 55 55</div>
+          </div>
+        </div>
+      </nav>
+
+      <nav>
+        <div class="phoneContainer">
+          <a href="https://goo.gl/maps/s1EFKrYWxci8MeUP6" target="_blank">
+            <img src="src/images/gpsicon.svg" alt="gpsicon" class="phoneIcon" />
+          </a>
+          <div id="phoneNumberInfo">
+            <div id="phoneNumberText">user Address</div>
+            <div id="phoneNumber">georgia,tbilisi</div>
+          </div>
+        </div>
+      </nav>
+
+      <nav>
+        <div class="phoneContainer">
+          <a href="mailto:saba.baindurashvili@gmail.com">
+            <img
+              src="src/images/mailicon.svg"
+              alt="mailicon"
+              class="phoneIcon"
+            />
+          </a>
+          <div id="phoneNumberInfo">
+            <div id="phoneNumberText">Email Address</div>
+            <div id="phoneNumber">saba.baindurashvili@gmail.com</div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="cardsContainer">
+      <div id="allCardContainer">
+        <div class="row">
+          <div class="card" id="card1">
+            <div class="card-content">
+              <img src="src/images/design.svg" alt="Photo 1" />
+              <h2>Graphichs Design</h2>
+            </div>
+          </div>
+          <div class="card" id="card2">
+            <div class="card-content">
+              <img src="src/images/service.svg" alt="Photo 2" />
+              <h2>Best Service</h2>
+            </div>
+          </div>
+          <div class="card" id="card3">
+            <div class="card-content">
+              <img src="src/images/service.svg" alt="Photo 2" />
+              <h2>Best Service</h2>
+            </div>
+          </div>
+          <div class="card" id="card4">
+            <div class="card-content">
+              <img src="src/images/pixel.svg" alt="Photo 2" />
+              <h2>Pixel Perfect</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card" id="card5">
+            <div class="card-content">
+              <img src="src/images/ideas.svg" alt="Photo 2" />
+              <h2>Unique Ideas</h2>
+            </div>
+          </div>
+          <div class="card" id="card6">
+            <div class="card-content">
+              <img src="src/images/analysis.svg" alt="Photo 2" />
+              <h2>Design Analysis</h2>
+            </div>
+          </div>
+          <div class="card" id="card7">
+            <div class="card-content">
+              <img src="src/images/chart.svg" alt="Photo 2" />
+              <h2>Fully Managed</h2>
+            </div>
+          </div>
+          <div class="card" id="card8">
+            <div class="card-content">
+              <img src="src/images/support.svg" alt="Photo 2" />
+              <h2>Helpful Support</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recomendationsSection">
+      <div>
+        <img src="src/images/clip.jpg" alt="" id="recomendationsBackground" />
+      </div>
+
+      <div class="recomendationsContainer">
+        <div id="recomendationContent">
+          <p id="recomendationText">
+            Your proficiency in web development is awe-inspiring! The way you
+            craft elegant designs, write efficient code, and bring user
+            experiences to life is simply remarkable. You are a true maestro of
+            the digital realm!
+          </p>
+          <img
+            id="photo"
+            src="src/images/recomendationPhoto1.svg"
+            alt="Photo"
+          />
+          <div>
+            <h3 id="occupation">Graphic Designer</h3>
+            <h2 id="name">Isabelle Barlow</h2>
+          </div>
+          <div>
+            <div>
+              <button
+                onclick="showContent('src/images/recomendationPhoto1.svg','Your proficiency in web development is awe-inspiring! The way you craft elegant designs, write efficient code, and bring user experiences to life is simply remarkable. You are a true maestro of the digital realm!'); document.getElementById('occupation').innerText = 'Graphic Designer'; document.getElementById('name').innerText = 'Isabelle Barlow';"
+                style="height: 15px; background: none; border-color: white"
+              ></button>
+            </div>
+            <div>
+              <button
+                onclick="showContent('src/images/recomendationPhoto2.svg', 'Your web development skills are truly exceptional! Your ability to create stunning websites with seamless functionality is a testament to your talent and dedication. Keep up the amazing work. Hire him now!!!!'); document.getElementById('occupation').innerText = 'buisnessman'; document.getElementById('name').innerText = 'Mr Crabs';"
+                style="
+                  height: 15px;
+                  background: none;
+                  border-color: #e93656;
+                  margin-top: 10px;
+                "
+              ></button>
+            </div>
+            <div>
+              <button
+                onclick="showContent('src/images/recomendationPhoto3.svg', 'Not only are you an outstanding web developer, but your charm and handsomeness are equally captivating. Your skills and looks make you a truly exceptional package in the digital and physical realms. Keep shining'); document.getElementById('occupation').innerText = 'Drug Dealer'; document.getElementById('name').innerText = 'pablo escobar';"
+                style="
+                  height: 15px;
+                  background: none;
+                  border-color: white;
+                  margin-top: 10px;
+                "
+              ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1 id="latestProjects">Latest Projects</h1>
+      <nav id="projects">
+        <div id="buttons">
+          <button class="button" onclick="showAll()">All</button>
+          <button class="button" onclick="showPhoto(2, 1)">Work ideas</button>
+          <button class="button" onclick="showPhoto(1, 2)">Mockup</button>
+          <button class="button" onclick="showPhoto(2, 2)">PSD Design</button>
+          <button class="button" onclick="showPhoto(1, 1)">Logo</button>
+          <button class="button" onclick="showPhoto(2, 0)">Presentation</button>
+          <button class="button" onclick="showPhoto(1, 0)">Icons</button>
+        </div>
+
+        <div class="buttonsPhotosContainer">
+          <div id="buttonsPhotosRow1">
+            <div class="buttonsPhoto">
+              <img src="src/images/project1.jpg" alt="Photo 1" />
+            </div>
+            <div class="buttonsPhoto">
+              <img src="src/images/project2.jpg" alt="Photo 2" />
+            </div>
+            <div class="buttonsPhoto">
+              <img src="src/images/project3.png" alt="Photo 3" />
+            </div>
+          </div>
+          <div id="buttonsPhotosRow2">
+            <div class="buttonsPhoto">
+              <img src="src/images/project4.jpg" alt="Photo 4" />
+            </div>
+            <div class="buttonsPhoto">
+              <img src="src/images/project5.jpg" alt="Photo 5" />
+            </div>
+            <div class="buttonsPhoto">
+              <img src="src/images/project6.jpg" alt="Photo 6" />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section>
+      <h3 class="newsEvent">NEWS & EVENT</h3>
+      <h2 id="latestEvents">Latest Articles</h2>
+
+      <nav id="graphicDesignerContainer">
+        <div class="graphicDesignCard">
+          <img src="src/images/designerIcon.svg" alt="" />
+          <h4>IN FREELANCING COMPANY</h4>
+          <h3>Graphic Designer</h3>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est dolor sit amet, consectetur
+            adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas
+            est etiam processus dynamicus, qui sequitur mutationem consuetudium
+            lectorum.
+          </p>
+          <a href="#" class="articlesReadMore">READ MORE</a>
+        </div>
+
+        <div class="graphicDesignRotatedDiv">
+          <h3>2011 - 2012</h3>
+        </div>
+        <div>
+          <img
+            src="./src/images/graphicDesign.jpg"
+            alt=""
+            class="latestArticlesPhoto"
+          />
+        </div>
+      </nav>
+
+      <nav id="applicationDesignContainer">
+        <div>
+          <img
+            src="./src/images/applicationDesign.jpg"
+            alt=""
+            class="latestArticlesPhoto"
+          />
+        </div>
+
+        <div class="graphicDesignRotatedDiv">
+          <h3>2013 - 2014</h3>
+        </div>
+        <div class="graphicDesignCard" style="margin: auto">
+          <img src="src/images/applicationDesignIcon.svg" alt="" />
+          <h4>IN FREELANCING COMPANY</h4>
+          <h3>Application Design</h3>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est dolor sit amet, consectetur
+            adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas
+            est etiam processus dynamicus, qui sequitur mutationem consuetudium
+            lectorum.
+          </p>
+          <a href="#" class="articlesReadMore">READ MORE</a>
+        </div>
+      </nav>
+
+      <nav id="graphicDesignerContainer">
+        <div class="graphicDesignCard">
+          <img src="src/images/personalAdviserIcon.svg" alt="" />
+          <h4>IN FREELANCING COMPANY</h4>
+          <h3>Personal Adviser</h3>
+          <p>
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+            officia deserunt mollit anim id est dolor sit amet, consectetur
+            adipisicing elit sed do eiusmod tempor incididunt ut labore Claritas
+            est etiam processus dynamicus, qui sequitur mutationem consuetudium
+            lectorum.
+          </p>
+          <a href="#" class="articlesReadMore">READ MORE</a>
+        </div>
+
+        <div class="graphicDesignRotatedDiv">
+          <h3>2015 - 2016</h3>
+        </div>
+        <div>
+          <img
+            src="./src/images/personalAdviser.jpg"
+            alt=""
+            class="latestArticlesPhoto"
+          />
+        </div>
+      </nav>
+    </section>
+
+    <section>
+      <h3 class="newsEvent">NEWS & EVENT</h3>
+      <h2 id="latestEvents">Rosa Team</h2>
+      <div id="productCards"></div>
+    </section>
+
+    <section class="contactSection">
+      <img src="src/images/map.jpg" alt="mapPhoto" />
+      <h2>CONTACT US</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+      <div class="signContainer">
+        <form
+          id="contactSign"
+          method="POST"
+          action="https://borjomi.loremipsum.ge/api/send-message"
+        >
+          <div id="inputs">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name*"
+              required
+            /><br /><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address*"
+              required
+            /><br /><br />
+            <input
+              type="text"
+              id="website"
+              name="website"
+              placeholder="Your Website*"
+              required
+            /><br /><br />
+          </div>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Message*"
+            rows="1"
+            cols="30"
+            required
+          ></textarea
+          ><br /><br />
+          <input type="submit" value="SEND MESSAGE" id="submitButton" />
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div id="rocaContainer">
+        <h1>Roca <span>.</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam quis nostrud.
+        </p>
+        <div id="footerLinks">
+          <a
+            href="https://www.facebook.com/saba.baindurashvili.9"
+            target="_blank"
+          >
+            <img src="src/images/facebook.png" alt=""
+          /></a>
+          <a
+            href="https://twitter.com/saba_baindurashvili?t=7t7PTkNSz9m6r_PITAM1TQ&s=07"
+            target="_blank"
+            ><img src="src/images/twitter.png" alt=""
+          /></a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <img src="src/images/youtube.png" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <div class="footerBottom">
+        <p>
+          © All right reserved 2019. <span> Rosa </span> - Creative Agency
+          Website PSD Template.
+        </p>
+      </div>
+    </footer>
+    <button class="scroll-to-top" id="scrollToTopBtn">↑</button>
+    <div id="cookie-notification" class="cookie-notification">
+      <p>
+        We use cookies to improve your experience.
+        <button id="accept-cookies">Accept</button>
+      </p>
+    </div>
+    <button class="scroll-to-top" id="scrollToTopBtn">↑</button>
+    <div id="cookie-notification" class="cookie-notification">
+      <p>
+        We use cookies to improve your experience.
+        <button id="accept-cookies">Accept</button>
+      </p>
+    </div>
+    <script src="src/js/app.js"></script>
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
